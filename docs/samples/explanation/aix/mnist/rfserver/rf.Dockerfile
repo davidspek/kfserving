@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.9.7
 
 COPY . .
 RUN pip install --upgrade pip && pip install kfserving==0.4.1
