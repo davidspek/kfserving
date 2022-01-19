@@ -3,48 +3,45 @@ module github.com/kubeflow/kfserving
 go 1.13
 
 require (
-	cloud.google.com/go/storage v1.11.0
-	github.com/astaxie/beego v1.12.1
-	github.com/aws/aws-sdk-go v1.31.12
+	cloud.google.com/go/storage v1.18.2
+	github.com/aws/aws-sdk-go v1.35.24
 	github.com/cloudevents/sdk-go v1.2.0
 	github.com/emicklei/go-restful v2.11.0+incompatible // indirect
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/getkin/kin-openapi v0.2.0
-	github.com/go-logr/logr v0.2.0
+	github.com/go-logr/logr v0.4.0
 	github.com/go-openapi/spec v0.19.6
-	github.com/gogo/protobuf v1.3.1
-	github.com/golang/protobuf v1.4.2
-	github.com/google/go-cmp v0.5.2
-	github.com/google/uuid v1.1.1
+	github.com/gogo/protobuf v1.3.2
+	github.com/golang/protobuf v1.5.2
+	github.com/google/go-cmp v0.5.6
+	github.com/google/uuid v1.3.0
 	github.com/googleapis/google-cloud-go-testing v0.0.0-20200911160855-bcd43fbb19e8
-	github.com/json-iterator/go v1.1.10
-	github.com/mattbaird/jsonpatch v0.0.0-20171005235357-81af80346b1a // indirect
+	github.com/json-iterator/go v1.1.11
 	github.com/kelseyhightower/envconfig v1.4.0
-	github.com/onsi/ginkgo v1.14.0
-	github.com/onsi/gomega v1.10.2
+	github.com/onsi/ginkgo v1.16.5
+	github.com/onsi/gomega v1.16.0
 	github.com/pkg/errors v0.9.1
 	github.com/satori/go.uuid v1.2.0
-	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644 // indirect
-	github.com/spf13/cobra v1.0.0
-	github.com/stretchr/testify v1.5.1
-	go.opencensus.io v0.22.4
-	go.uber.org/zap v1.15.0
-	golang.org/dl v0.0.0-20201105230244-7f2637f4aae3 // indirect
-	golang.org/x/net v0.0.0-20200904194848-62affa334b73
-	google.golang.org/api v0.31.0
-	google.golang.org/grpc v1.31.1
-	google.golang.org/protobuf v1.25.0
+	github.com/spf13/cobra v1.2.1
+	github.com/stretchr/testify v1.7.0
+	go.uber.org/zap v1.19.1
+	golang.org/x/net v0.0.0-20211205041911-012df41ee64c
+	google.golang.org/api v0.61.0
+	google.golang.org/grpc v1.42.0
+	google.golang.org/protobuf v1.27.1
 	istio.io/api v0.0.0-20200715212100-dbf5277541ef
 	istio.io/client-go v0.0.0-20201005161859-d8818315d678
 	istio.io/gogo-genproto v0.0.0-20191029161641-f7d19ec0141d // indirect
-	k8s.io/api v0.18.8
-	k8s.io/apimachinery v0.18.8
+	k8s.io/api v0.21.4
+	k8s.io/apimachinery v0.21.4
+	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
 	k8s.io/klog v1.0.0
-	k8s.io/kube-openapi v0.0.0-20200410145947-bcb3869e6f29
-	knative.dev/networking v0.0.0-20200922180040-a71b40c69b15
-	knative.dev/pkg v0.0.0-20200922164940-4bf40ad82aab
-	knative.dev/serving v0.18.0
+	k8s.io/kube-openapi v0.0.0-20210305001622-591a79e4bda7
+	knative.dev/networking v0.0.0-20211209101835-8ef631418fc0
+	knative.dev/pkg v0.0.0-20211206113427-18589ac7627e
+	knative.dev/serving v0.28.1
 	sigs.k8s.io/controller-runtime v0.6.3
+	sigs.k8s.io/structured-merge-diff/v3 v3.0.1-0.20200706213357-43c19bbb7fba // indirect
 )
 
 replace (
