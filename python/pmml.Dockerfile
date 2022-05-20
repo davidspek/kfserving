@@ -1,4 +1,4 @@
-FROM openjdk:11-slim
+FROM openjdk:18-slim
 
 RUN apt update && apt install -y python3-minimal python3-pip && rm -rf /var/lib/apt/lists/*
 
